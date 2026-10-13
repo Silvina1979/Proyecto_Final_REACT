@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Silvina Souza Faviero",
+    "email": "silvina@miappreact.ai",
+    "puesto": "CEO & Fundadora",
+    "foto": "https://i.ibb.co/XZVBzbFn/avatar1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Hernan Gomez",
+    "email": "hernan@miappreact.ai",
+    "puesto": "CTO",
+    "foto": "https://i.ibb.co/4w11P2Rv/avatar2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Cande Perez",
+    "email": "cande@miappreact.ai",
+    "puesto": "Lead Designer",
+    "foto": "https://i.ibb.co/PKRdzry/avatar3.jpg"
+  }
+]

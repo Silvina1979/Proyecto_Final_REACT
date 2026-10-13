@@ -1,0 +1,104 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 28rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: rgba(30, 30, 30, 0.45);
+    backdrop-filter: blur(12px);
+    border: 2px solid rgba(129, 18, 240, 0.25);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    gap: 18px;
+    width: 100%;
+}
+
+.formulario h3 {
+    text-align: center;
+    color: #FFE3B3;
+    margin-bottom: 5px;
+}
+
+.formulario label {
+    font-weight: 600;
+    color: #FFE3B3;
+    font-size: 14px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    font-size: 14px;
+    color: #ffffff;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.formulario input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.formulario input:focus {
+    outline: none;
+    border-color: #79CE67;
+}
+
+/* Control estricto para que las imágenes nunca rebasen la tarjeta */
+.formulario img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.formulario button {
+    background: linear-gradient(135deg, #79CE67, #30B155);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario button:hover {
+    opacity: 0.9;
+}
+
+.formulario button:disabled {
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.4);
+    cursor: not-allowed;
+}
+
+/* Contenedor general adaptable */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .contenedor {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .formulario {
+    padding: 2.5rem;
+  }
+}

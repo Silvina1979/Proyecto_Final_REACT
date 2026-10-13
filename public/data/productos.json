@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1234",
+    "nombre": "Notebook Pro",
+    "precio": 12000,
+    "stock": 15,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXja4kZxsH8CRMD3rSQ7yILSU1Rgl79yDBQ4etKFtOJw&s"
+  },
+  {
+    "id": "2344",
+    "nombre": "Monitor Curvo",
+    "precio": 450000,
+    "stock": 25,
+    "imagen": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR2M0EnKe6ctxyiUKuJ5rLGF0vrha4IgCUCJNv5_4I3ydxlhuGdzW7O0ShxaaYUaVvTLICOjLzRZGv4S6KAtz4BWUHih6fz4uhS9wFmmrq_9AeTHauXCYI0qdfzrC3219oTF8XIZa0PgQ&usqp=CAc"
+  },
+  {
+    "id": "2545",
+    "nombre": "Teclado Mecánico",
+    "precio": 15000,
+    "stock": 50,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdsbEEqVnvEtk3m7eSQTjK1IP6Mn9LjN5kN03EdSIHdA&s=10"
+  },
+  {
+    "id": "2548",
+    "nombre": "Teclado Mecánico",
+    "precio": 15000,
+    "stock": 50,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdsbEEqVnvEtk3m7eSQTjK1IP6Mn9LjN5kN03EdSIHdA&s=10"
+  }
+]

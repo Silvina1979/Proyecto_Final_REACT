@@ -1,0 +1,21 @@
+.footer {
+  background: rgba(17, 34, 68, 0.5);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 227, 179, 0.2);
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  color: #FFE3B3;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 30px;
+  }
+}

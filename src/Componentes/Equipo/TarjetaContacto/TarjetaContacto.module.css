@@ -1,0 +1,37 @@
+.tarjeta {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  width: 220px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 2px solid #4F46E5;
+}
+
+.nombre {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #1f2937;
+}
+
+.puesto {
+  color: #4F46E5;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.email {
+  font-size: 12px;
+  color: #6b7280;
+  word-break: break-all;
+}

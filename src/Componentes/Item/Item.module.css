@@ -1,0 +1,64 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 227, 179, 0.3);
+    padding-bottom: 20px;
+    width: 16rem;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: rgba(30, 30, 30, 0.55);
+    backdrop-filter: blur(12px);
+    color: #ffffff;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-sizing: border-box;
+}
+
+.contador {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.favorito {
+    font-size: 24px;
+    cursor: pointer;
+    color: #FFE3B3; /* Tono dorado/crema de la paleta Viola */
+    transition: transform 0.2s ease;
+}
+
+.favorito:hover {
+    transform: scale(1.1);
+}
+
+.cardTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FFE3B3; /* Tono principal para los títulos */
+    text-align: center;
+}
+
+.imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+/* Media Query opcional para adaptar el ancho en pantallas grandes */
+@media (min-width: 768px) {
+  .card {
+    width: 17rem;
+  }
+}
